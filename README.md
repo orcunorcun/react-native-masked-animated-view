@@ -116,7 +116,7 @@ export default App;
 
 For more detailed example, please refer to the [example directory](/example) in the repository.
 
-### Props
+## Props
 
 | Prop Name            | Type     | Default         | Description                                                                                   |
 |----------------------|----------|-----------------|-----------------------------------------------------------------------------------------------|
@@ -127,14 +127,14 @@ For more detailed example, please refer to the [example directory](/example) in 
 | `maskColor`          | string   | `white`         | The color of the mask element's background.                                                   |
 | `maskElementStyle`   | object   | `{ height: 80, width: 80 }` | The style of the mask element.                                                      |
 
-### Animation States
+## Animation States
 
 The `animationState` prop controls the state of the animation. It can have the following values:
 
 - `LOADING`: The animation is in the loading state.
 - `LOADED`: The animation is in the loaded state.
 
-### Development
+## Development
 
 If you want to contribute or run the example project, follow these steps:
 
@@ -159,6 +159,6 @@ npm install
 npm start
 ```
 
-### License
+## License
 
 MIT
